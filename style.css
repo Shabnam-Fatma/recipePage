@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 91vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 24px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.prepare {
+  height: 28vh;
+  background-color: hsl(0, 100%, 98%);
+  border-radius: 20px;
+  padding: 3rem;
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 30px;
+}
+
+.prepare h3 {
+  font-size: 34px;
+  color: hsl(332, 57%, 35%);
+  margin-bottom: 10px;
+}
+
+.prepare .dot {
+    background-color: hsl(332, 57%, 35%);
+}
+
+.both {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.both .dot {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+
+.both p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.both p span {
+  font-weight: bold;
+}
+
+.ingrediantce {
+  padding: 40px 10px;
+}
+
+.ingrediantce h2 {
+  font-size: 40px;
+  color: hsl(0, 57%, 35%);
+  margin-bottom: 10px;
+}
+
+.ingrediantce .dot {
+    background-color: hsl(0, 57%, 35%);
+}
+
+.instruction h2 {
+    font-size: 40px;
+    color: hsl(0, 57%, 35%);
+}
+
+.instruction .both .dot {
+    margin-top: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    color: hsl(0, 57%, 35%);
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
